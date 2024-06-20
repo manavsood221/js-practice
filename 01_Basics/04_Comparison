@@ -1,0 +1,8 @@
+console.log(null>0)
+console.log(null<0)
+console.log(null>=0)
+console.log(null<=0)
+
+// comparison and eqality check works differently
+// strict check ===
+
