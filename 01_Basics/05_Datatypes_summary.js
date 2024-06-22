@@ -20,7 +20,7 @@ const bigNumber = 237467n
 // reference (no-primitive)
 /*
 Array, objects, functions
-*/z
+*/
 
 const heroes = ['Spiderman', 'superman', 'batman']
 let myObj = {
@@ -37,6 +37,17 @@ console.log('Hello World!')
 
 let myName = "ManavSood";
 let anotherName = myName;
+anotherName = "Manav";
 
 console.log(anotherName);
+console.log(myName);
+
+let user = {
+    email:"msamaasd@gmaill.com",
+    upi:'upi@ybl'
+};
+let userTwo = user;
+userTwo.email = "manavsood@gmail.com"
+console.log(user.email)
+console.log(userTwo.email)
 
