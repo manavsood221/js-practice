@@ -20,7 +20,7 @@ const bigNumber = 237467n
 // reference (no-primitive)
 /*
 Array, objects, functions
-*/
+*/z
 
 const heroes = ['Spiderman', 'superman', 'batman']
 let myObj = {
@@ -31,3 +31,12 @@ let myObj = {
 const myFunction = function(){
 console.log('Hello World!')    
 }
+
+//******************************** */
+//stack(primitive), heap(non-premitive) (types of memories)
+
+let myName = "ManavSood";
+let anotherName = myName;
+
+console.log(anotherName);
+
